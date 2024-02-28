@@ -1,0 +1,21 @@
+Retrieval Augmented Generation is a keynote in Generative AI.There are many LLMS that came in after Chat-GPT which are pretty effective in answering different questions.Chat-GPT is appropriate with the knowledge of 2022 at most but lack the answers for other than the trained data i.e.,they don`t have the updated information of the topics being asked.In order to overcome this challenge we came across a technique called RAG. Retrieval Augmented Generation which works based on the point of retrieval.RAG is not  a standalone application but works along with LLMS.It retrieves data from knowledge sources like the internal data of companies and other information from different sources and sends it to the LLM to find the answers for the queries being given 
+We follow the approach as mentioned here:
+Step By Step Process for RAG based Search Application:
+dataloader(pdf documents)
+open and read documents
+pagecount
+pagenum
+read the data
+input the query
+send it to rag to retrieve
+send the data in numerical format i.e., after embedding and vectordb
+send the embedding data to llms
+document quering - topic modelling
+and answer section
+search tool
+UI
+https://www.clarifai.com/blog/ai-in-5-rag-with-pdfs
+https://medium.com/@indradumnabanerjee/building-rag-based-llm-application-with-custom-pdf-code-walkthrough-55cb38cb7ba6
+https://colab.research.google.com/github/pinecone-io/examples/blob/master/docs/langchain-retrieval-augmentation.ipynb#scrollTo=jKuedXN8bcf
+
+https://github.com/IntelLabs/fastRAG/blob/main/examples/client_inference_with_Llama_cpp.ipynb
